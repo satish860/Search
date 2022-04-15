@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Search.Api", "src\Search.Api\Search.Api.csproj", "{1C73F380-D9A3-4548-9205-E8760064FE41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search.Domain", "src\Search.Domain\Search.Domain.csproj", "{140D8226-37FA-476A-BAD0-C7B66E4BF146}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Search.Domain", "src\Search.Domain\Search.Domain.csproj", "{140D8226-37FA-476A-BAD0-C7B66E4BF146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search.DataGenerator", "src\Search.DataGenerator\Search.DataGenerator.csproj", "{89CCB8D8-CF01-4A47-9E0A-5A18D0CB2B81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{140D8226-37FA-476A-BAD0-C7B66E4BF146}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{140D8226-37FA-476A-BAD0-C7B66E4BF146}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{140D8226-37FA-476A-BAD0-C7B66E4BF146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89CCB8D8-CF01-4A47-9E0A-5A18D0CB2B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89CCB8D8-CF01-4A47-9E0A-5A18D0CB2B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89CCB8D8-CF01-4A47-9E0A-5A18D0CB2B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89CCB8D8-CF01-4A47-9E0A-5A18D0CB2B81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
