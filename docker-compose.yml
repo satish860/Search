@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  search.api:
+    image: ${DOCKER_REGISTRY-}searchapi
+    build:
+      context: .
+      dockerfile: src/Search.Api/Dockerfile
+
+  db:
+    image: typesense/typesense:0.22.2
+    volumes:
+      - typesense_data:/data
+    environment:
+      - TYPESENSE_DATA_DIR=/data
+      - TYPESENSE_API_KEY=xyz
+ 
+volumes:
+  typesense_data:
+     
+
